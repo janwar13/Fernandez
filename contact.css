@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    object-fit: cover;
+    
+}
+.headerHolder{
+    width: 100%;
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    background-image: radial-gradient(rgba(57, 134, 64, 0.4),rgba(47, 128, 61, 0.5) ) , url(p.webp);
+    background-attachment: fixed;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    background-image: url('c.webp');
+}
+.header{
+    padding: 2rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding-right: 2rem;
+}
+a:hover{
+    text-decoration: underline;
+}
+.section-a {
+    width: 100%;
+    height: 35vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: justify;
+    
+}
+.sec-a-h1{
+    color: rgb(20, 71, 20)k;
+}
+
+.sec-a-box{
+    width: 600px;
+    line-height: 3rem;
+    align-items: center;
+    text-align: center;
+}
+
+.sec-a-paragraph{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    line-height: 2rem;
+}
+
+.section-b{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(300px);
+
+}
+
+.sec-b-inputDetails{
+    line-height: 3rem;
+    align-items: center;
+    text-align: center;
+}
+
+input{
+    width: 80%;
+    height: 2rem;
+    border: none;
+
+    font-weight: bolder;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    margin-bottom: 5px;
+
+}
+
+textarea{
+    width: 80%;
+    height: 7rem;
+    border: none;
+    resize: vertical;
+
+    font-weight: bolder;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+}
+
+button{
+    width: 8rem;
+    height: 3rem;
+    font-size: large;
+    font-weight: bold;
+    float: right;
+    margin-right: 2rem;
+    border: 2px solid rgb(20, 71, 20);
+    background-color: white;
+    color: rgb(20, 71, 20);
+    transition: .5s ease-in-out;
+}
+
+button:hover{
+    border: none;
+    background-color: rgb(20, 71, 20);
+    color: white;
+}
+
+.sec-b-contactDetails{
+    padding: 0px 80px;
+    line-height: 2.5rem;
+
+}
+
+
+.section-c{
+    margin-top: 2rem;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.sec-c-mapHolder{
+    width: 900px;
+    height: 100%;
+    border: 1px solid rgb(20, 71, 20);
+
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+.section-d{
+    margin-top: 2rem;
+    height: 40vh;
+    border: 1px solid rgb(20, 71, 20);
+}
+
+
+@media (max-width: 1300px) {
+    .root{
+        margin: 0 auto;
+        width: 100%;
+        background-color: white;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .section-b{
+        margin-left: 4rem;
+        margin-right: 4rem;
+        
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: minmax(300px);
+    }
+}
+
